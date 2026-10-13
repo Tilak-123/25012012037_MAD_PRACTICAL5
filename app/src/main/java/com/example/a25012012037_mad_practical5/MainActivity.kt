@@ -10,14 +10,14 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.a25012012037_mad_practical5.ui.theme._24012011206_Dipendra_prac5_MadTheme
+import com.example.a25012012037_mad_practical5.ui.theme._25012012037_Tilak_prac5_MadTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            _24012011206_Dipendra_prac5_MadTheme {
+            _25012012037_Tilak_prac5_MadTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun LoginScreenPreview() {
-    _24012011206_Dipendra_prac5_MadTheme {
+    _25012012037_Tilak_prac5_MadTheme {
         LoginScreen()
     }
 }
@@ -40,7 +40,7 @@ fun LoginScreenPreview() {
 @Preview(showBackground = true)
 @Composable
 fun RegistrationScreenPreview() {
-    _24012011206_Dipendra_prac5_MadTheme {
+    _25012012037_Tilak_prac5_MadTheme {
         RegistrationScreen()
     }
 }
@@ -48,7 +48,7 @@ fun RegistrationScreenPreview() {
 @Preview(showBackground = true)
 @Composable
 fun CheckBoxLevelScreenPreview() {
-    _24012011206_Dipendra_prac5_MadTheme {
+    _25012012037_Tilak_prac5_MadTheme {
         CheckBoxLevelScreen()
     }
 }
